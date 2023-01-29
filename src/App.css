@@ -1,38 +1,68 @@
+body {
+  background-color: rgb(127, 155, 127);
+}
+
+h1 {
+  color: rgb(211, 81, 81);
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .App {
-  text-align: center;
+  background-color: rgb(246, 237, 219);
+  margin: 20px auto;
+  width: 400px;
+  min-height: 70vh;
+}
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: rgb(245, 226, 190);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul, li {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Add {
+  margin-top: 5px;
+  background:  rgb(107, 152, 107);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  color: rgb(245, 226, 190);
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Delete {
+  background: rgb(246, 117, 117);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  margin-bottom: 5px;
+  color:  rgb(245, 226, 190);
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+input{
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family:'Montserrat', sans-serif ;
 }
